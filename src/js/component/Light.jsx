@@ -15,8 +15,8 @@ const Light = ({color, onClick}) => {
         lightColor = "secondary"
     }
     return (
-        <div className={`col-lg-10 row justify-content-center h-auto m-2`}>
-            <button type="button" className={`btn btn-${lightColor} ${color}-light-shadow w-100 rounded-circle ratio ratio-1x1`} onClick={onClick}></button>
+        <div className={`col-lg-8 row justify-content-center h-auto m-2`}>
+            <button type="button" className={`btn btn-${lightColor} ${color}-light-shadow w-75 rounded-circle ratio ratio-1x1`} onClick={onClick}></button>
         </div>
     )
 }
