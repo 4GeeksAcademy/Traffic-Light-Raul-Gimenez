@@ -1,12 +1,15 @@
+.red-light-shadow {
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+}
 
-/* 
+.yellow-light-shadow {
+    box-shadow: 0 0 10px yellow, 0 0 40px yellow, 0 0 80px yellow;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.green-light-shadow {
+    box-shadow: 0 0 10px green, 0 0 40px green, 0 0 80px green;
+}
 
-*/
+.off-light-shadow {
+    box-shadow: none;
+}
